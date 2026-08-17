@@ -10,6 +10,11 @@ This project demonstrates the complete reverse engineering and reuse of the LCD 
 - Map the arbitrary, non-contiguous memory layout of the HT1621
 - Adapt an existing HT1621 driver library to work with this specific display
 - Successfully control the original LCD using an **ESP32**
+## Documentation
+> 🎨 **Interactive Documentation:** [**View the Canva version**]((https://canva.link/hcvckzcn1l8z89q))  
+> The Canva version is recommended because it includes the project videos and the full visual experience.
+
+
 
 ##  What Was Built
 
