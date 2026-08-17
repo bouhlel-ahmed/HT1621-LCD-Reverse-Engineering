@@ -53,19 +53,6 @@ New:       Character → Lookup Table → Custom RAM Mapper → HT1621 RAM → L
 
 **Solution:** Used datasheets, logic analysis, and systematic testing to reverse-engineer everything.
 
-## 📁 Repository Structure
-
-```
-├── src/
-│   └── HT1621.cpp / HT1621.h      # Modified library
-├── examples/
-│   └── esp32_demo.ino             # ESP32 demo sketch
-├── docs/
-│   └── LCD_reverse_engineering.pdf  # Full documentation (Canva PDF)
-├── README.md
-└── LICENSE
-```
-
 ##  Getting Started
 
 ### Hardware
