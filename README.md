@@ -111,7 +111,7 @@ void loop() {
 
 ## 📚 Full Documentation
 
-**📄 [Project Documentation (PDF)](LCD%20reverse%20engineering.pdf)**
+[Project Documentation (PDF)](LCD%20reverse%20engineering%20(1).pdf)
 
 > The PDF contains detailed reverse engineering notes, memory maps, circuit diagrams, photos, and step-by-step methodology.
 
