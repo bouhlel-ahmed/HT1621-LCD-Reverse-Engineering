@@ -2,7 +2,7 @@
 
 > Reverse engineering an undocumented segmented LCD from a Thomson RCD-203U radio — and making it work with an ESP32.
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the complete reverse engineering and reuse of the LCD module from a **Thomson RCD-203U radio**. The original LCD was driven by two ICs (ET1621 and SC3610). The goal was to:
 
@@ -11,7 +11,7 @@ This project demonstrates the complete reverse engineering and reuse of the LCD 
 - Adapt an existing HT1621 driver library to work with this specific display
 - Successfully control the original LCD using an **ESP32**
 
-## 🔧 What Was Built
+##  What Was Built
 
 | Component | Description |
 |-----------|-------------|
@@ -20,7 +20,7 @@ This project demonstrates the complete reverse engineering and reuse of the LCD 
 | **ESP32 Integration** | Full control of 7-segment digits, icons, and custom characters |
 | **Hardware Reverse Engineering** | Identified COM/SEG lines, protocol timing, and pinout |
 
-## 🧠 Key Technical Challenges & Solutions
+## Key Technical Challenges & Solutions
 
 ### 1. Undocumented Memory Layout
 The HT1621's 32×4-bit RAM did **not** follow a logical digit-by-digit organization. Each RAM byte controlled segments belonging to multiple digits — e.g., one byte controlled Segment A of Digit 1, Segment F of Digit 2, and an icon segment of Digit 3.
@@ -61,7 +61,7 @@ New:       Character → Lookup Table → Custom RAM Mapper → HT1621 RAM → L
 └── LICENSE
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Hardware
 - ESP32 (any dev board)
@@ -121,7 +121,7 @@ void loop() {
 
 *(https://canva.link/hcvckzcn1l8z89q)*
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - C++ / Embedded C++
 - ESP32
