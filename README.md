@@ -124,6 +124,9 @@ void loop() {
 - LCD Multiplexing (COM/SEG)
 - Hardware Reverse Engineering
 - Memory Mapping
+  ## Acknowledgments
+
+This project was made possible in part by the work of https://github.com/valerionew/ht1621-7-seg whose HT1621 Arduino library was used as a reference during the reverse-engineering process.
 
 ## 📖 What I Learned
 
