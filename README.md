@@ -128,6 +128,9 @@ void loop() {
 
 This project was made possible in part by the work of https://github.com/valerionew/ht1621-7-seg whose HT1621 Arduino library was used as a reference during the reverse-engineering process.
 
+## Source Code
+
+The Arduino source code used to communicate with the HT1621 LCD is available in the `src` folder.
 ## 📖 What I Learned
 
 - LCD multiplexing and COM/SEG operation
