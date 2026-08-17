@@ -110,6 +110,8 @@ void loop() {
 ```
 
 ## 📚 Full Documentation
+> **📄 Documentation:** The complete project documentation is provided as a PDF. For the best viewing experience, the **Canva version is recommended**, as it preserves the original layout, visuals, and interactive elements.
+
 
 [Project Documentation (PDF)](LCD%20reverse%20engineering%20(1).pdf)
 
